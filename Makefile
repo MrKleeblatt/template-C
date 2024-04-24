@@ -1,4 +1,5 @@
 NAME=Main
+IGNORE := $(shell mkdir -p ./out/objects/)
 
 all: clear_console clean compile run
 
