@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+  - -Wall
+  - -I../include/
+  # - --std=c23
+  Compiler: clang
+
