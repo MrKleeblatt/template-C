@@ -1,7 +1,10 @@
 CompileFlags:
   Add:
   - -Wall
-  - -I../include/
-  # - --std=c23
+  - --std=gnu2x
+  - -Wall
+  - -Wextra
+  - -Wpedantic
+  - -Werror
   Compiler: clang
 

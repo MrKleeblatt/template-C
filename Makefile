@@ -5,7 +5,7 @@ all: clear_console clean compile run
 
 CC=clang
 DEBUG=-g
-COMPILE_FLAGS=-Wall -g
+COMPILE_FLAGS=-g --std=gnu2x -Wall -Wextra -Wpedantic -Werror
 LINK_FLAGS=-lm
 
 SOURCES=$(shell find ./src/ -name '*.c')
